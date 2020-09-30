@@ -20,7 +20,7 @@ T binarySearch_1(T arr[], int l, int r, int key)
 
 // Given the element is not unique (duplpicates are present in the array)
 
-// Finding the first occurence of the element
+// 1) Finding the first occurence of the element
 template<typename T>
 T binarySearch_2(T arr[], int l, int r, int key)
 {
@@ -44,7 +44,7 @@ T binarySearch_2(T arr[], int l, int r, int key)
 }
 
 
-// Finding the last occurence of the element
+// 2) Finding the last occurence of the element
 template<typename T>
 T binarySearch_3(T arr[], int l, int r, int key)
 {
