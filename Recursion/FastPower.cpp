@@ -4,7 +4,7 @@ using namespace std;
 // Compute a^n
 // a^n = a * a^(n-1)
 // Time Complexity - O(N)
-// Space Complexity - O(1)
+// Space Complexity - O(N)
 
 int power(int a, int n)
 {
